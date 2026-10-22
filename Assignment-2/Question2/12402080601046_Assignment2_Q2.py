@@ -182,6 +182,5 @@ def main():
     except ValueError:
         print("Error: Please enter valid numbers.")
 
-1
 if __name__ == "__main__":
     main()
