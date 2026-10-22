@@ -1,4 +1,3 @@
-
 import re
 
 def extract_emails(file_path):
@@ -49,7 +48,6 @@ def extract_emails(file_path):
 
     except OSError:
         print("Error: Unable to read the file.")
-
 
 # Main program
 file_path = input("Enter the text file path: ").strip()
